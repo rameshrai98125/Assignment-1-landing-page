@@ -1,0 +1,243 @@
+@media screen and (max-width: 1228px) {
+    .left {
+        gap: 0px;
+    }
+
+    .nav .right {
+        gap: 22px;
+    }
+
+    #hand {
+        position: absolute;
+        width: 728px;
+        height: 482px;
+    }
+
+    .hero-section-heading {
+        font-family: Urbanist;
+        font-size: 129px;
+        line-height: 127px;
+    }
+
+    .hero-section-paragraph {
+        margin-top: 35px;
+    }
+
+    .hero-section-header {
+        width: 747px;
+        height: 485px;
+    }
+
+    .about-us-bottom {
+        width: 910px;
+        height: 488px;
+    }
+
+    .about-us-img-medium {
+        position: absolute;
+        width: 276px;
+        height: 132px;
+        margin-top: 82px;
+        margin-left: 48px;
+        font-family: Urbanist;
+        font-size: 34px;
+    }
+
+    .feature-section {
+        gap: 0px
+    }
+
+    .brands-first-half {
+        gap: 20px
+    }
+
+    .brands-second-half {
+        gap: 20px
+    }
+
+    .brands-section {
+        margin: 30px 0;
+        gap: 0px;
+    }
+
+    .footer {
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .feature-section {
+        flex-direction: column;
+        height: 1322px;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .nav {
+        margin: 0 -78px;
+    }
+
+    .nav .left ul {
+        display: none;
+    }
+
+    .nav .right {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        color: white;
+        font-size: 30px;
+    }
+
+    .brands-section {
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .footer {
+        gap: 55px;
+    }
+
+    .about-us-top {
+        flex-direction: column;
+        padding-inline: 39px
+    }
+
+    .about-us-section {
+        height: 1600px;
+    }
+
+    .about-us-bottom {
+        width: 610px;
+        height: 991px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .about-us-subleft {
+        flex-direction: row;
+    }
+
+    .about-us-right {
+        flex-direction: column;
+    }
+
+    .about-us-subright {
+        width: 539px;
+        height: 222px;
+    }
+
+    .about-us-lavender-big {
+        margin-top: 97px;
+    }
+
+    .hero-section-header {
+        margin-left: 39px;
+        margin-top: 326px;
+        width: 617px;
+        height: 418px;
+    }
+
+    .hero-section-heading {
+        font-size: 107px;
+        line-height: 99px;
+    }
+
+    .hero-section-paragraph {
+        margin-top: -21px;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    #hand {
+        position: absolute;
+        width: 535px;
+        height: 359px;
+        top: 246px;
+    }
+
+    .footer {
+        height: 863px;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 177px;
+        padding: 50px;
+    }
+
+    .hero-section-heading {
+        font-size: 87px;
+        line-height: 90px;
+    }
+
+    .hero-section-paragraph {
+        margin-top: -48px;
+    }
+
+    .hero-section-header {
+        margin-left: 39px;
+        margin-top: 326px;
+        width: 503px;
+        height: 405px;
+    }
+
+    .about-us-left {
+        width: 355px;
+        height: 406px;
+    }
+
+    .about-us-img-button {
+        margin-top: 328px;
+    }
+
+    .about-us-first {
+        width: 166px;
+        height: 185px;
+    }
+
+    .about-us-second {
+        width: 166px;
+        height: 185px;
+    }
+
+    .about-us-subright {
+        width: 359px;
+        height: 185px;
+    }
+
+    .about-us-green-small {
+        margin-top: 7px;
+        margin-left: 11px;
+    }
+
+    .about-us-green-big {
+        margin-top: 34px;
+        margin-left: 10px;
+    }
+
+    .about-us-skin-small {
+        margin-top: 6px;
+        margin-left: 10px;
+    }
+
+    .about-us-skin-big {
+        margin-top: 14px;
+        margin-left: 10px;
+    }
+
+    .about-us-lavender-small {
+        margin-top: 7px;
+        margin-left: 10px;
+    }
+
+    .about-us-lavender-big {
+        margin-top: 87px;
+        margin-left: 10px;
+    }
+    .about-us-bottom {
+        width: 395px;
+        height: 846px;
+    }
+}
