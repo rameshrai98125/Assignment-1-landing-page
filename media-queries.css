@@ -75,6 +75,7 @@
 @media screen and (max-width: 1015px) {
     .nav {
         margin: 0 -78px;
+        height: 76px;
     }
 
     .nav .left ul {
@@ -183,6 +184,10 @@
         height: 405px;
     }
 
+    .about-us-section {
+        height: 1408px;
+    }
+
     .about-us-left {
         width: 355px;
         height: 406px;
@@ -236,8 +241,396 @@
         margin-top: 87px;
         margin-left: 10px;
     }
+
     .about-us-bottom {
         width: 395px;
         height: 846px;
+    }
+
+    .feature-image {
+        width: 401px;
+        height: 433px;
+    }
+
+    #sales-img {
+        padding: 30px;
+        padding: 32px;
+        width: 410px;
+        height: 360px;
+    }
+
+
+    .feature-heading {
+        width: 373px;
+        line-height: 62px;
+    }
+
+    .feature-sub-heading {
+        width: 424px;
+        height: 104px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 29.6px;
+        margin-block: 64px;
+    }
+
+    .point1 {
+        width: 271px;
+    }
+
+    .point2 {
+        width: 262px;
+    }
+
+    .point3 {
+        width: 287px;
+    }
+
+    .feature-text {
+        width: 415px;
+        height: 552px;
+    }
+}
+
+@media screen and (max-width: 584px) {
+    #hand {
+        position: absolute;
+        width: 381px;
+        height: 252px;
+        top: 249px;
+    }
+
+    .hero-section-heading {
+        font-size: 92px;
+        line-height: 82px;
+    }
+
+    .hero-section-paragraph {
+        margin-top: 0px;
+        width: 336px;
+        margin-bottom: 14px;
+    }
+
+    .hero-section-header {
+        margin-left: 39px;
+        margin-top: 334px;
+        width: 404px;
+        height: 498px;
+    }
+
+    .about-us-top-heading {
+        margin: 0 0;
+        width: 492px;
+        font-size: 53px;
+        line-height: 60px;
+    }
+
+    .about-us-top-paragraph {
+        width: 326px;
+    }
+
+    #uber-eats {
+        width: 114px;
+        height: 76px;
+    }
+
+    #jeep {
+        width: 114px;
+        height: 76px;
+    }
+
+    #amazon {
+        width: 114px;
+        height: 76px;
+    }
+
+    #bitcoin {
+        width: 114px;
+        height: 76px;
+    }
+
+    #hubspot {
+        width: 114px;
+        height: 76px;
+        ;
+    }
+
+    #stripe {
+        width: 114px;
+        height: 76px;
+    }
+
+
+}
+
+@media screen and (max-width: 488px) {
+    .nav{
+    height: 53px;
+    }
+    .logo {
+        width: 146px;
+        height: 53px;
+    }
+    #logo {
+        cursor: pointer;
+        width: 95px;
+        height: 39px;
+        margin-top: 10px;
+    }
+
+    .menu {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+
+    #hand {
+        position: absolute;
+        width: 274px;
+        height: 190px;
+        top: 204px;
+    }
+
+    .hero-section-heading {
+        font-size: 61px;
+        line-height: 66px;
+    }
+
+    .hero-section-header {
+        margin-left: 36px;
+        margin-top: 259px;
+        width: 260px;
+        height: 410px;
+    }
+
+    .hero-section-paragraph {
+        margin-top: -65px;
+        width: 268px;
+        margin-bottom: 34px;
+    }
+
+    .hero-section {
+        max-width: 1440px;
+        height: 834px;
+    }
+
+    .main {
+        height: 834px;
+    }
+
+    .about-us-top-heading {
+        /* margin: 0px -31px; */
+        width: 397px;
+        font-size: 40px;
+        line-height: 31px;
+    }
+
+    .about-us-top-paragraph {
+        width: 282px;
+        height: 52px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18.6px;
+        text-align: left;
+        color: #757b8a;
+        border: 2px solid red;
+    }
+
+    .about-us-top {
+        padding-inline: 7px;
+        margin: 115px 12px;
+    }
+
+    .about-us-bottom {
+        align-items: flex-start;
+    }
+
+    .about-us-left {
+        width: 297px;
+        height: 291px;
+    }
+
+    .about-us-img-medium {
+        position: absolute;
+        width: 276px;
+        height: 132px;
+        margin-top: 76px;
+        margin-left: 23px;
+        font-family: Urbanist;
+        font-size: 26px;
+        text-align: left;
+        line-height: 33px;
+    }
+
+    .about-us-img-small {
+        margin-top: 43px;
+        margin-left: 23px;
+    }
+
+    .about-us-img-button {
+        margin-top: 222px;
+        padding: 0px;
+        width: 198px;
+        height: 46px;
+        margin-top: 229px;
+        margin-left: 49px;
+    }
+
+    .about-us-subleft {
+        gap: 5px;
+    }
+
+    .about-us-right {
+        gap: 5px;
+    }
+
+    .about-us-first {
+        width: 146px;
+        height: 172px;
+    }
+
+    .about-us-second {
+        width: 146px;
+        height: 172px;
+    }
+
+    .about-us-subright {
+        width: 299px;
+        height: 172px;
+    }
+
+    .about-us-bottom {
+        margin: -77px auto;
+        width: 301px;
+        height: 656px;
+        gap: 5px;
+    }
+
+    .about-us-green-big {
+        margin-top: 23px;
+        margin-left: 5px;
+        font-size: 31px;
+    }
+
+    .about-us-skin-big {
+        margin-top: 9px;
+        margin-left: 4px;
+        font-size: 31px;
+    }
+
+    .about-us-lavender-big {
+        margin-top: 60px;
+        margin-left: 6px;
+        font-size: 31px;
+    }
+
+    .about-us-section {
+        height: 1044px;
+    }
+
+    .feature-image {
+        width: 285px;
+        height: 283px;
+    }
+
+    .sales-heading {
+        font-size: 24px;
+    }
+
+    #sales-img {
+        padding: 30px;
+        padding: 27px;
+        width: 293px;
+        height: 259px;
+    }
+
+    .feature-text {
+        width: 291px;
+        height: 384px;
+    }
+
+    .feature-section {
+        padding-block: 183px;
+        height: 1128px;
+    }
+
+    .feature-heading {
+        font-size: 37px;
+        width: 322px;
+        line-height: 43px;
+    }
+
+    .feature-sub-heading {
+        width: 288px;
+        height: 104px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 18.6px;
+        margin-block: 4px;
+    }
+
+    .points {
+        display: flex;
+        gap: 9px;
+        margin-bottom: 8px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17.6px;
+        text-align: left;
+    }
+
+    #uber-eats {
+        width: 82px;
+        height: 57px;
+    }
+
+    #jeep {
+        width: 82px;
+        height: 57px;
+    }
+
+    #amazon {
+        width: 82px;
+        height: 57px;
+    }
+
+    #bitcoin {
+        width: 82px;
+        height: 57px;
+    }
+
+    #hubspot {
+        width: 82px;
+        height: 57px;
+    }
+
+    #stripe {
+        width: 82px;
+        height: 57px;
+    }
+    .brands-section {
+        margin: 0px 0;
+    }
+    .footer {
+        height: 748px;
+        padding: 20px;
+    }
+    .hero-section{
+overflow: hidden;
+    }
+    .about-us-section{
+overflow: hidden;
+    }
+    .feature-section{
+overflow: hidden;
+    }
+    .brands-section{
+overflow: hidden;
+    }
+    .footer{
+overflow: hidden;
     }
 }
